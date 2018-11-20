@@ -82,12 +82,12 @@ You want to extract some data out of the scanned code, e.g. the lot/batch number
 
 ## How to use it
 
-The library is located in the `scripts` directory; in its uncompressed form and in a version minified with the `uglifyjs` tool (see https://github.com/mishoo/UglifyJS2).
+The library is located in the `src` directory in its uncompressed form. There is also a version minified with the `uglifyjs` tool (see https://github.com/mishoo/UglifyJS2) in the `dist` directory.
 
 Load the library into your application:
 
 ```html
-<script src="./scripts/BarcodeParser.js"></script>
+<script src="./src/BarcodeParser.js"></script>
 ```
 
 and use the single one function `parseBarcode()` of the library, handling over the barcode string:
