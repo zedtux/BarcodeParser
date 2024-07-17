@@ -14,7 +14,7 @@
  *
  * encapsulating the barcode parsing function in an anonymous, self-executing function
  */
-export default parseBarcode = (function () {
+export default const parseBarcode = (function () {
     'use strict';
     /**
      * This is the main routine provided by the parseBarcode library. It takes a string,
